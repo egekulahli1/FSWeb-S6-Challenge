@@ -1,0 +1,33 @@
+.karakter {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 60%;
+    border: 1px solid #000;
+    border-radius: 1rem;
+    background-color: #fff;
+    box-shadow: 0 0 1rem #000;
+    transition: all 0.3s ease-in-out;
+}
+
+.karakter button{
+ background: transparent; 
+ border: none;  
+ width: 100%;
+ display: flex;
+ justify-content: space-between;
+ padding: 1rem;
+}
+.karakter button:hover{
+    cursor: pointer;
+    
+}
+
+.karakter button h3{
+    font-size: 1.5rem;
+    color: #000;
+    text-shadow: 1px 1px 5px #fff;
+    margin: 0;
+}

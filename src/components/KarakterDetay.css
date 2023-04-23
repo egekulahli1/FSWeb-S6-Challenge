@@ -1,0 +1,33 @@
+.karakter-detay {
+    display: flex;
+    flex-direction: column;
+    align-items: start;;
+    width: 100%;
+   
+    background-color: #fff;
+    box-shadow: 0 0 1rem #000;
+    transition: all 0.3s ease-in-out;
+    gap: 1.55rem;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    
+}
+
+.karakter-detay p{
+    margin: 0;
+}
+
+.detay-data {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: start;
+    width: 100%;
+    gap: 0.5rem;
+    padding-left: 1rem;
+}
+
+.detay-tpe{
+    font-weight: bold;
+}
+
